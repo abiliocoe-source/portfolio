@@ -3,7 +3,7 @@
 Site pessoal, feito sem frescura: HTML, CSS e JavaScript puros, sem build.
 Tem uns movimentos bonitinhos (GSAP + ScrollTrigger e Lenis pro scroll suave), modo escuro e tudo em português, com a opção de ver em inglês.
 
-🔗 **No ar:** https://abiliocoe-source.github.io
+🔗 **No ar:** https://abiliocoe-source.github.io/portfolio/
 
 ## O que tem aí
 

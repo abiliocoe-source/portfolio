@@ -1,6 +1,6 @@
 # Abilio Coelho · portfolio
 
-Site pessoal, feito sem frescura: HTML, CSS e JavaScript puros, sem build.
+Site pessoal do meu portfolio como desenvolvedor, HTML, CSS e JavaScript puros, sem build.
 Tem uns movimentos bonitinhos (GSAP + ScrollTrigger e Lenis pro scroll suave), modo escuro e tudo em português, com a opção de ver em inglês.
 
 🔗 **No ar:** https://abiliocoe-source.github.io/portfolio/

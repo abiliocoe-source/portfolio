@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="pt-BR" class="is-loading">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abilio Coelho · Software Developer</title>
+  <meta name="description" content="Abilio Coelho, Software Developer focado em aplicações com IA e LLMs. Estudante de Ciência da Computação no Mackenzie, em São Paulo.">
+  <meta property="og:title" content="Abilio Coelho · Software Developer">
+  <meta property="og:description" content="Aplicações com IA e LLMs, pequenas, testadas e honestas sobre seus limites.">
+  <meta property="og:image" content="https://abiliocoe-source.github.io/assets/img/og.jpg">
+  <meta name="theme-color" content="#f5f5f7">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script>
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+
+  <!-- Loader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <span class="loader__name"><span>Abilio</span> <span>Coelho</span></span>
+      <span class="loader__count">0</span>
+    </div>
+    <div class="loader__bar"><span></span></div>
+  </div>
+
+  <!-- Cursor -->
+  <div class="cursor" aria-hidden="true"><span class="cursor__label" data-i18n="cursor.view">Ver</span></div>
+
+  <!-- Header -->
+  <header class="nav">
+    <a href="#top" class="nav__logo" data-magnetic>Abilio<span>.</span></a>
+    <nav class="nav__links" aria-label="Principal">
+      <a href="#projetos" data-i18n="nav.work">Projetos</a>
+      <a href="#sobre" data-i18n="nav.about">Sobre</a>
+      <a href="#contato" data-i18n="nav.contact">Contato</a>
+    </nav>
+    <div class="nav__tools">
+      <span class="nav__clock" title="São Paulo"><i class="dot"></i><span data-clock>--:--</span> SP</span>
+      <button class="pill" data-lang-toggle aria-label="Switch language"><span data-lang="pt">PT</span><span data-lang="en">EN</span></button>
+      <button class="icon-btn" data-theme-toggle aria-label="Alternar tema">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z" fill="currentColor"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <p class="eyebrow hero__eyebrow" data-i18n="hero.eyebrow">Software Developer · AI &amp; LLM Applications</p>
+      <h1 class="hero__title">
+        <span class="line"><span class="line__inner" data-i18n="hero.l1">Software que resolve</span></span>
+        <span class="line"><span class="line__inner" data-i18n-html="hero.l2">problemas que <em>vejo de perto.</em></span></span>
+      </h1>
+      <div class="hero__foot">
+        <p class="hero__lead" data-i18n="hero.lead">Estudante de Ciência da Computação no Mackenzie, em São Paulo. Construo agentes de IA e aplicações com LLMs que são pequenas, testadas e honestas sobre seus limites.</p>
+        <a href="#projetos" class="scroll-cue" data-magnetic>
+          <span data-i18n="hero.scroll">Role</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 4v16m0 0-6-6m6 6 6-6" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+        </a>
+      </div>
+      <div class="hero__orb" aria-hidden="true"></div>
+    </section>
+
+    <!-- Manifesto -->
+    <section class="manifesto" id="sobre">
+      <p class="eyebrow" data-i18n="about.eyebrow">Sobre</p>
+      <p class="manifesto__text" data-split-words data-i18n="about.text">Sou estudante de Ciência da Computação no Mackenzie (São Paulo). Desde o início da era da IA, tenho fome de aprender o máximo possível por meio dela. A tecnologia sempre esteve ao nosso redor: desde a invenção da primeira ferramenta, ela mudou a forma como vemos o mundo e resolvemos os problemas do dia a dia. Foi assim que descobri minha vocação: resolver, inovar e aplicar minha visão ao resto do universo que me cerca por meio da tecnologia.</p>
+    </section>
+
+    <!-- Marquee -->
+    <section class="marquee" aria-label="Stack">
+      <div class="marquee__track">
+        <div class="marquee__row">
+          <span>Python</span><i>✦</i><span>LLMs</span><i>✦</i><span>AI Agents</span><i>✦</i><span>RAG</span><i>✦</i><span>scikit-learn</span><i>✦</i><span>pandas</span><i>✦</i><span>Streamlit</span><i>✦</i><span>Java</span><i>✦</i><span>C</span><i>✦</i><span>pytest</span><i>✦</i><span>GitHub Actions</span><i>✦</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="work" id="projetos">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="work.eyebrow">Projetos selecionados</p>
+        <h2 class="section-title reveal-lines" data-i18n-html="work.title">Pequenos, testados<br>e honestos.</h2>
+        <p class="section-sub reveal" data-i18n="work.sub">Cada repositório tem suíte de testes, CI e uma seção de limitações. Todos estão no ar.</p>
+      </div>
+
+      <div class="stack-cards">
+
+        <article class="card" style="--accent:#e8b400">
+          <div class="card__inner">
+            <div class="card__meta">
+              <span class="card__index">01</span>
+              <h3 class="card__title">ResolveAI</h3>
+              <p class="card__tag" data-i18n="p1.tag">Assistente de suporte com RAG que responde só com base em políticas citadas.</p>
+              <p class="card__desc" data-i18n="p1.desc">Quando não encontra fonte, diz que não sabe. Casos de risco e tentativas de prompt injection vão para uma pessoa.</p>
+              <ul class="card__stats">
+                <li><b data-count="34">0</b><span>/36</span><small data-i18n="p1.s1">decisões corretas na avaliação</small></li>
+                <li><b data-count="0">0</b><span>/6</span><small data-i18n="p1.s2">injeções de prompt que passaram</small></li>
+              </ul>
+              <p class="card__stack">Python · scikit-learn · SQLite · Streamlit · pytest</p>
+              <div class="card__links">
+                <a class="btn btn--solid" href="https://resolveaii.streamlit.app/" target="_blank" rel="noopener" data-magnetic><span data-i18n="cta.demo">Ver demo</span> ↗</a>
+                <a class="btn" href="https://github.com/abiliocoe-source/resolveai" target="_blank" rel="noopener" data-magnetic>GitHub ↗</a>
+              </div>
+            </div>
+            <a class="card__media" href="https://resolveaii.streamlit.app/" target="_blank" rel="noopener" data-cursor>
+              <div class="frame"><div class="frame__bar"><i></i><i></i><i></i><span>resolveaii.streamlit.app</span></div>
+                <div class="frame__img"><img src="assets/img/resolveai.webp" alt="Fila de suporte do ResolveAI com resposta citando a política de cancelamento" width="1440" height="730" loading="lazy"></div>
+              </div>
+            </a>
+          </div>
+        </article>
+
+        <article class="card" style="--accent:#d9622b">
+          <div class="card__inner">
+            <div class="card__meta">
+              <span class="card__index">02</span>
+              <h3 class="card__title">DeliveryOps AI</h3>
+              <p class="card__tag" data-i18n="p2.tag">Painel para cozinhas de delivery: atraso e cancelamento por categoria.</p>
+              <p class="card__desc" data-i18n="p2.desc">Valida os pedidos, calcula os indicadores e gera recomendações apoiadas nos números. O resumo por LLM é descartado quando inventa um número.</p>
+              <ul class="card__stats">
+                <li><b data-count="1200">0</b><small data-i18n="p2.s1">pedidos fictícios validados na demo</small></li>
+                <li><b data-count="10">0</b><span>%</span><small data-i18n="p2.s2">meta de atraso monitorada por semana</small></li>
+              </ul>
+              <p class="card__stack">Python · pandas · Plotly · Streamlit · pytest</p>
+              <div class="card__links">
+                <a class="btn btn--solid" href="https://deliveryops-ai.streamlit.app/" target="_blank" rel="noopener" data-magnetic><span data-i18n="cta.demo">Ver demo</span> ↗</a>
+                <a class="btn" href="https://github.com/abiliocoe-source/deliveryops-ai" target="_blank" rel="noopener" data-magnetic>GitHub ↗</a>
+              </div>
+            </div>
+            <a class="card__media" href="https://deliveryops-ai.streamlit.app/" target="_blank" rel="noopener" data-cursor>
+              <div class="frame"><div class="frame__bar"><i></i><i></i><i></i><span>deliveryops-ai.streamlit.app</span></div>
+                <div class="frame__img"><img src="assets/img/deliveryops.webp" alt="Painel do DeliveryOps AI com taxa de atraso semanal e meta de 10%" width="1440" height="730" loading="lazy"></div>
+              </div>
+            </a>
+          </div>
+        </article>
+
+        <article class="card" style="--accent:#2b7bd9">
+          <div class="card__inner">
+            <div class="card__meta">
+              <span class="card__index">03</span>
+              <h3 class="card__title">DemandLab</h3>
+              <p class="card__tag" data-i18n="p3.tag">Previsão diária de demanda com dados reais de bicicletas compartilhadas.</p>
+              <p class="card__desc" data-i18n="p3.desc">Compara o modelo com uma regra simples e mostra o erro medido no período de teste. Inclui um app de simulação de capacidade.</p>
+              <ul class="card__stats">
+                <li><b data-count="21">0</b><span>%</span><small data-i18n="p3.s1">de erro (WAPE) em 28 dias</small></li>
+                <li><b data-count="32">0</b><span>%</span><small data-i18n="p3.s2">de erro da regra simples</small></li>
+              </ul>
+              <p class="card__stack">Python · scikit-learn · pandas · Streamlit · pytest</p>
+              <div class="card__links">
+                <a class="btn btn--solid" href="https://demandlab.streamlit.app/" target="_blank" rel="noopener" data-magnetic><span data-i18n="cta.demo">Ver demo</span> ↗</a>
+                <a class="btn" href="https://github.com/abiliocoe-source/demandlab" target="_blank" rel="noopener" data-magnetic>GitHub ↗</a>
+              </div>
+            </div>
+            <a class="card__media" href="https://demandlab.streamlit.app/" target="_blank" rel="noopener" data-cursor>
+              <div class="frame"><div class="frame__bar"><i></i><i></i><i></i><span>demandlab.streamlit.app</span></div>
+                <div class="frame__img"><img src="assets/img/demandlab.webp" alt="Relatório de previsão do DemandLab com histórico e previsão tracejada" width="1440" height="730" loading="lazy"></div>
+              </div>
+            </a>
+          </div>
+        </article>
+
+        <article class="card" style="--accent:#d93b5b">
+          <div class="card__inner">
+            <div class="card__meta">
+              <span class="card__index">04</span>
+              <h3 class="card__title">PR Risk Radar</h3>
+              <p class="card__tag" data-i18n="p4.tag">Nota de risco explicável para diffs do Git, com testes sugeridos.</p>
+              <p class="card__desc" data-i18n="p4.desc">Dá a cada diff uma nota de 0 a 100 e explica cada ponto com a regra e as linhas que o geraram. É uma heurística para revisão, não a probabilidade de bug.</p>
+              <ul class="card__stats">
+                <li><b data-count="58">0</b><small data-i18n="p4.s1">testes automatizados</small></li>
+                <li><b data-count="3">0</b><small data-i18n="p4.s2">versões do Python no CI (3.11 a 3.13)</small></li>
+              </ul>
+              <p class="card__stack">Python · Streamlit · pytest · GitHub Actions</p>
+              <div class="card__links">
+                <a class="btn btn--solid" href="https://pr-risk-radar.streamlit.app/" target="_blank" rel="noopener" data-magnetic><span data-i18n="cta.demo">Ver demo</span> ↗</a>
+                <a class="btn" href="https://github.com/abiliocoe-source/pr-risk-radar" target="_blank" rel="noopener" data-magnetic>GitHub ↗</a>
+              </div>
+            </div>
+            <a class="card__media" href="https://pr-risk-radar.streamlit.app/" target="_blank" rel="noopener" data-cursor>
+              <div class="frame"><div class="frame__bar"><i></i><i></i><i></i><span>pr-risk-radar.streamlit.app</span></div>
+                <div class="frame__img"><img src="assets/img/prrisk.webp" alt="Análise do PR Risk Radar com nota 65 de 100 e sinais de risco" width="1600" height="813" loading="lazy"></div>
+              </div>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="path">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="path.eyebrow">Trajetória</p>
+        <h2 class="section-title reveal-lines" data-i18n-html="path.title">Aprendo rápido<br>quando o caminho pede.</h2>
+      </div>
+      <ol class="timeline">
+        <li class="timeline__item reveal">
+          <span class="timeline__date" data-i18n="path.e1.date">jan. 2026 – nov. 2026</span>
+          <div>
+            <h3>AI Agent Engineer <span>· WithFunded</span></h3>
+            <p data-i18n="path.e1.text">Agentes de IA que monitoram comunidades do Reddit e identificam potenciais clientes. Busca por palavras-chave combinada com análise por LLM para separar oportunidades de menções sem potencial.</p>
+          </div>
+        </li>
+        <li class="timeline__item reveal">
+          <span class="timeline__date" data-i18n="path.e2.date">previsão: jan. 2029</span>
+          <div>
+            <h3 data-i18n-html="path.e2.title">Ciência da Computação <span>· Mackenzie</span></h3>
+            <p data-i18n="path.e2.text">Bacharelado na Universidade Presbiteriana Mackenzie, em São Paulo.</p>
+          </div>
+        </li>
+        <li class="timeline__item reveal">
+          <span class="timeline__date">2026</span>
+          <div>
+            <h3 data-i18n-html="path.e3.title">Certificados</h3>
+            <p>Anthropic Academy: Claude Code in Action · AI Fluency for Builders · AI Fluency for Creative Work. Mackenzie: Pensamento Computacional · Foundation Design iOS.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contato">
+      <p class="eyebrow" data-i18n="contact.eyebrow">Contato</p>
+      <h2 class="contact__title">
+        <span class="line"><span class="line__inner" data-i18n="contact.l1">Vamos construir</span></span>
+        <span class="line"><span class="line__inner" data-i18n-html="contact.l2"><em>algo juntos?</em></span></span>
+      </h2>
+      <a class="contact__mail" href="mailto:abiliocoe@gmail.com" data-magnetic>
+        <span>abiliocoe@gmail.com</span>
+        <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+      </a>
+      <div class="contact__links">
+        <a href="https://www.linkedin.com/in/abiliocoe" target="_blank" rel="noopener" class="u-link">LinkedIn</a>
+        <a href="https://github.com/abiliocoe-source" target="_blank" rel="noopener" class="u-link">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span data-year>2026</span> Abilio Coelho</span>
+    <span data-i18n="footer.made">Feito em São Paulo</span>
+    <a href="#top" class="u-link" data-i18n="footer.top">Voltar ao topo ↑</a>
+  </footer>
+
+  <script src="assets/vendor/gsap.min.js"></script>
+  <script src="assets/vendor/ScrollTrigger.min.js"></script>
+  <script src="assets/vendor/lenis.min.js"></script>
+  <script src="assets/i18n.js"></script>
+  <script src="assets/main.js"></script>
+</body>
+</html>
